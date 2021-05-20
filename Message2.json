@@ -1,0 +1,20 @@
+{
+  "$id": "https://schema.myverycompany.com/Message2.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$ref": "#/definitions/Message2",
+  "title": "Message 2 schema",
+  "type": "object",
+  "definitions": {
+    "Message2": {
+      "type": "object",
+      "properties": {
+        "ItemType": {
+          "$ref": "SharedRefs.json#/definitions/MyEnumType"
+        }
+      },
+      "required": [
+        "ItemType"
+      ]
+    }
+  }
+}

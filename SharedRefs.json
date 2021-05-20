@@ -1,0 +1,14 @@
+{
+    "$id": "https://schema.myverycompany.com/SchemaRefs.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "MyEnumType": {
+            "type": "string",
+            "enum": [
+                "OptionOne",
+                "OptionTwo"
+            ],
+            "description": "Identifies selected option"
+        }
+    }
+}
